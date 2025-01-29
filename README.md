@@ -26,7 +26,7 @@ CIS 1200 Game Project README
     there were no extenuating errors when the game ran or the player tried to break the game.
     This is a clear use of JUnit Testable Components since I'm testing possible ways to break my code
     and thus making sure each piece of code has correct functionality.
-===============================
+
    File Structure Screenshot 
 ===============================
 - Include a screenshot of your project's file structure. This should include
@@ -35,8 +35,8 @@ CIS 1200 Game Project README
   "file_structure.png".
 
 
-   My Implementation 
-=
+   My Implementation
+  ==
   GameBoard --> This creates the game board.
   Grass --> This is a special class that tracks whether a spot is an edge, empty, filled, or contains the bunny.
   Rabbit --> This is the Rabbit that is tracked throughout the game to tell where on the Grass 2D array
