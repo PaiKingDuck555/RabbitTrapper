@@ -1,5 +1,5 @@
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
-CIS 1200 Game Project README
+RabbitTrapper(CIS1200 Final Project) README
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 
    Core Concepts 
