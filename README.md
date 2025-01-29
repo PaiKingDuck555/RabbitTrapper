@@ -34,9 +34,9 @@ CIS 1200 Game Project README
   upload this screenshot in your homework submission to gradescope, named 
   "file_structure.png".
 
-=========================
+==
    My Implementation 
-=========================
+=
   GameBoard --> This creates the game board.
   Grass --> This is a special class that tracks whether a spot is an edge, empty, filled, or contains the bunny.
   Rabbit --> This is the Rabbit that is tracked throughout the game to tell where on the Grass 2D array
