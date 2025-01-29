@@ -3,7 +3,7 @@ CIS 1200 Game Project README
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 
    Core Concepts 
-
+=
 
   1. 2D Arrays
   I used 2D arrays to make a 2D Grass Array that contained all of the spots
