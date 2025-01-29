@@ -34,7 +34,7 @@ CIS 1200 Game Project README
   upload this screenshot in your homework submission to gradescope, named 
   "file_structure.png".
 
-==
+
    My Implementation 
 =
   GameBoard --> This creates the game board.
@@ -51,7 +51,7 @@ I was mostly very stuck on how to make the searching for the Rabbit, this took m
 its been a while since I've done BFS. If I had a chance to refactor I think that I would delete the Rabbit and I would only use Grass. I think
 there's a lot of inefficiency in storage of variables and there is double counting of positions.
 
-========================
+
    External Resources 
 ========================
 
