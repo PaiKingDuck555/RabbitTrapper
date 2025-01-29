@@ -1,15 +1,10 @@
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 CIS 1200 Game Project README
-PennKey: 13432050
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 
 ===================
-=: Core Concepts :=
+   Core Concepts 
 ===================
-
-- List the four core concepts, the features they implement, and why each feature
-  is an appropriate use of the concept. Incorporate the feedback you got after
-  submitting your proposal.
 
   1. 2D Arrays
   I used 2D arrays to make a 2D Grass Array that contained all of the spots
@@ -33,7 +28,7 @@ PennKey: 13432050
     This is a clear use of JUnit Testable Components since I'm testing possible ways to break my code
     and thus making sure each piece of code has correct functionality.
 ===============================
-=: File Structure Screenshot :=
+   File Structure Screenshot 
 ===============================
 - Include a screenshot of your project's file structure. This should include
   all of the files in your project, and the folders they are in. You can
@@ -41,11 +36,8 @@ PennKey: 13432050
   "file_structure.png".
 
 =========================
-=: Your Implementation :=
+   My Implementation 
 =========================
-
-- Provide an overview of each of the classes in your code, and what their
-  function is in the overall game.
   GameBoard --> This creates the game board.
   Grass --> This is a special class that tracks whether a spot is an edge, empty, filled, or contains the bunny.
   Rabbit --> This is the Rabbit that is tracked throughout the game to tell where on the Grass 2D array
@@ -55,22 +47,14 @@ PennKey: 13432050
   RunMyGame -->
   RabbitCatcherTest --> This 10 tests which test some of the edge cases within my code.
 
-- Were there any significant stumbling blocks while you were implementing your
-  game (related to your design, or otherwise)?
+Problems I had: 
 I was mostly very stuck on how to make the searching for the Rabbit, this took me a REALLY long time since
-its been a while since I've done BFS.
-
-- Evaluate your design. Is there a good separation of functionality? How well is
-  private state encapsulated? What would you refactor, if given the chance?
-If I had a chance to refactor I think that I would delete the Rabbit and I would only use Grass. I think
+its been a while since I've done BFS. If I had a chance to refactor I think that I would delete the Rabbit and I would only use Grass. I think
 there's a lot of inefficiency in storage of variables and there is double counting of positions.
 
 ========================
-=: External Resources :=
+   External Resources 
 ========================
-
-- Cite any external resources (images, tutorials, etc.) that you may have used 
-  while implementing your game.
 
 https://www.google.com/search?sca_esv=3b91e47ab754cb87&rlz=1C5CHFA_enUS1071US1071&q=cartoon+pixel+bunny&udm=2&fbs=
 AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J7pRxUp2pI1mXV9fBsfh39JqJxzRlphkmT2MeVSzs3MQEN5DgZmMeykT7pJra3boNLZnu_5
